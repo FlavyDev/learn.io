@@ -148,12 +148,13 @@
         font-size: small;
     }
 
+    
     .banner_img img {
         width: 85%;
     }
 }
 
-@media screen and (max-width: 687px) {
+@media screen and (max-width: 680px) {
     
     .banner_texto  {
         width: 100%;
