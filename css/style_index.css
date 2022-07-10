@@ -13,7 +13,7 @@
     display: flex;
     flex-wrap: wrap;
     margin: 8% 7% 7% 7%;
-    margin-bottom: 9%;
+    margin-bottom: 7%;
 }
 
 .banner_img, .banner_texto  {
@@ -166,5 +166,6 @@
 
     .banner_texto h1 {
         font-size: 250%;
+        margin-left: 0%;
     }
 }
