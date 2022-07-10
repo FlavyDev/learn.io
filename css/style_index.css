@@ -156,9 +156,6 @@
 
 @media screen and (max-width: 630px) {
     
-    .banner {
-        margin: 0%;
-    }
     .banner_texto  {
         width: 100%;
         text-align: center;
@@ -170,5 +167,16 @@
     .banner_texto h1 {
         font-size: 250%;
         margin-left: 0%;
+    }
+    
+    .banner_texto h4 {
+        margin-left: 0%;
+    }
+
+    .banner button {
+        padding: 0.7% 3%;
+        margin-left: 0%;
+        border-color: #002C53;
+        color: #002C53;
     }
 }
