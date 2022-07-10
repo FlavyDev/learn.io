@@ -156,6 +156,9 @@
 
 @media screen and (max-width: 630px) {
     
+    .banner {
+        margin: 0%;
+    }
     .banner_texto  {
         width: 100%;
         text-align: center;
