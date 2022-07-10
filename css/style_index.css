@@ -164,19 +164,15 @@
     }
 
     .banner_texto h1 {
-        text-align: center;
         font-size: 250%;
         margin-left: 0%;
     }
     
     .banner_texto h4 {
-        text-align: center;
         margin-left: 0%;
-        color: #555555;
     }
 
     .banner button {
-        text-align: center;
         margin-left: 0%;
     }
 }
