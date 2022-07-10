@@ -170,11 +170,13 @@
     }
     
     .banner_texto h4 {
+        text-align: center;
         margin-left: 0%;
         color: #555555;
     }
 
     .banner button {
+        text-align: center;
         padding: 0%;
         margin-left: 0%;
     }
