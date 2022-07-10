@@ -9,49 +9,91 @@
 
 a{
     text-decoration: none;
-    color: rgb(22, 19, 19);
+    color: #fff;
 }
 
 header {
     position: absolute;
     width: 100%;
-    height: 12%;
     display: flex;
-    background-color: #AD0C0C;
-    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25); /*borda sobreada*/ 
+    background-color: #AD0C0C; 
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2); /*borda sobreada */
 }
 
-header h1 {
-    position: static;
-    margin-left: 8%;
-    margin-top: 1.5%;
+.logo {
+    width: 20%;
+    display: flex;
 }
 
-header div img {
-    position: relative;
-    max-width: 130px;
-    margin-left: 70%;
 
-    
-}
-nav#menu {
-    display: block;
+.logo img {
+    width: 55%;
+    margin-top: 3%;
+    margin-left: 35%;
+    margin-bottom: 2%;
 }
 
-nav#menu ul {
+.menu {
+    width: 20%;
+    display: flex;
+}
+
+.menu ul {
+    display: flex;
     list-style: none;
-    position: absolute;
-    display: flex;
     justify-content: space-around;
-    left: 70%;
-    top: 15%;
+    margin-left: 260%; 
+}
+
+.menu li {
+    margin-top: 12%;
+    padding: 10%;
+    margin-right: 20%;
+}
+
+
+
+@media screen and (max-width: 1024px) {
    
+    .logo {
+        width: 30%;
+    }
+    .menu {
+        width: 10%;
+        margin-left: 2.5%;
+    }
 
 }
 
-nav#menu li {
-    display: inline-block;
-    padding: 20px;
+@media screen and (max-width: 768px) {
+ 
+    .menu {
+        width: 5%;
+        margin-left: 10%;
+    }
+    
+    .menu li {
+        margin-top: 12%;
+        padding: 10%;
+    }
 }
 
+@media screen and (max-width: 550px) {
+   
+    .logo {
+        width: 35%;
+    }
 
+    .logo img {
+        margin-left: 110%;
+    }
+   
+    .menu {
+        margin-left: -15%;
+    }
+    
+    .menu li {
+        margin-top: 35%;
+        padding: 0%;
+    } 
+}
