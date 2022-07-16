@@ -1,0 +1,179 @@
+.home {
+    position: absolute;
+    top: 15%;
+    display: flex;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8% 7% 7% 7%;
+    margin-bottom: 7%;
+}
+
+.banner_img, .banner_texto  {
+    width: 50%;
+}
+
+.banner_texto h1 {
+    font-size: 250%;
+    color: #002C53;
+    text-shadow: 
+        1px -1px 0px #002C53, 
+        1px 1px 0px #002C53,                    
+        1px 1px 0px #002C53,                  
+        1px 0px 0px #002C53;
+    margin-top: 7%;
+    margin-left: 14%;
+}
+
+.banner_texto h4 {
+    color: #555555;
+    padding-top: 3.5%;
+    padding-bottom: 5%; 
+    margin-left: 15%;
+}
+
+.banner button {
+    cursor: pointer;
+    border-radius: 62px;
+    border-style: solid;
+    padding: 0.7% 3%;
+    margin-left: 15%;
+    border-color: #002C53;
+    color: #002C53;
+    
+}
+
+.banner_img img {
+    width: 85%;
+}
+
+.cursos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 6% 3% 6% 3% ;
+    background-color: #ece7e7;
+}
+
+.curso {
+    text-align: center;
+    width: 30%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.curso h2 {
+    color: #AD0C0C;
+    text-align: center;
+    padding: 7%;
+}
+
+#ingles_avacado {
+    padding-top: 12%;
+}
+
+
+.curso p {
+    text-align: center;
+    padding-left: 18%;
+    padding-right: 19%;
+}
+
+.curso button {
+    align-items: center;
+    cursor: pointer;
+    border-radius: 62px;
+    border-style: solid;
+    border-color: #AD0C0C;
+    padding: 1% 4%;
+    margin-top: 5%;
+    background-color: #AD0C0C;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 1280px) {
+    .cursos {
+        display: block;
+    }
+
+    .curso {
+        width: 100%;
+    }
+    .curso img {
+        width: 55%;
+    }
+
+    .curso h2 {
+        padding: 3%;
+    }
+    
+    #ingles_avacado {
+        padding-top: 3%;
+    }
+
+    .curso p {
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    
+    .curso button {
+        margin-top: 2.5%;
+        margin-bottom: 9%;
+    }
+
+}
+
+@media screen and (max-width: 834px) {
+
+    .banner_texto h1 {
+        font-size: 150%;
+        color: #002C53;
+        text-shadow: 
+            0px -0px 0px, 
+            1px 1px 0px,                    
+            1px 1px 0px,                  
+            1px 0px 0px;
+    }
+    
+    .banner_texto h4 {
+        font-size: small;
+    }
+
+    
+    .banner_img img {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    
+    .banner_texto  {
+        width: 100%;
+        text-align: center;
+    }
+    .banner_img img {
+        display: none;
+    }
+
+    .banner_texto h1 {
+        font-size: 250%;
+        margin-left: 0%;
+    }
+    
+    .banner_texto h4 {
+        margin-left: 0%;
+    }
+
+    .banner button {
+        margin-left: 0%;
+    }
+}
