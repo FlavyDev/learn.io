@@ -56,32 +56,23 @@
     color: #002C53;
 }
 
-.botaoVermelho {
+.botaoComece button{
     position: absolute;
-    width: 233px;
-    height: 51px;
-    left: 545px;
-    top: 641px;
-    
-    background: #AD0C0C;
-    border-radius: 62px;
-
-}
-
-.botaoComece {
-    position: absolute;
-    width: 216px;
+    width: 12%;
     height: 25px;
     left: 554px;
     top: 654px;
-    
+    cursor: pointer;
     font-family: 'Ubuntu';
     font-style: normal;
-    font-weight: 400;
+
     font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
+    border-color: #AD0C0C;
+    background-color: #AD0C0C;
+    border-radius: 62px;
+    padding-bottom: 35px;
+    padding-top: 16px;
     
 }
 .textIniciante {
@@ -102,7 +93,7 @@
 
 .line {
     position: absolute;
-    width: 1244px;
+    width: 80%;
     height: 5px;
     left: 82px;
     top: 834px;
@@ -133,22 +124,13 @@
     color: #002C53;
 }
 
-.botaoVermelho1 {
-    position: absolute;
-    width: 233px;
-    height: 51px;
-    left: 545px;
-    top: 1192px;
-    background: #AD0C0C;
-    border-radius: 62px;
-}
-
-.botaoComece1 {
+.botaoComece1 button{
     position: absolute;
     width: 216px;
     height: 25px;
     left: 554px;
-    top: 1205px;
+    top: 1227px;
+    cursor: pointer;
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
@@ -156,6 +138,11 @@
     line-height: 23px;
     text-align: center;
     color: #FFFFFF;
+    border-color: #AD0C0C;
+    background-color: #AD0C0C;
+    border-radius: 62px;
+    padding-bottom: 30px;
+    padding-top: 10px;
 }
 
 .textIntermediario {
@@ -174,7 +161,7 @@
 
 .line1 {
     position: absolute;
-    width: 1244px;
+    width: 80%;
     height: 5px;
     left: 98px;
     top: 1424px;
@@ -188,7 +175,8 @@
     height: 331px;
     left: 98px;
     top: 1510px;
-    background: url(img/img_ingles_avancado.jpg);
+    background: url(img_ingles_avancado);
+    
 }
 
 .fraseAvançado {
@@ -206,29 +194,26 @@
     color: #002C53;
 }
 
-.botaoVermelho2 {
-    position: absolute;
-    width: 233px;
-    height: 51px;
-    left: 561px;
-    top: 1789px;
-    background: #AD0C0C;
-    border-radius: 62px;
-}
 
-.botaoComece2 {
+.botaoComece2 button{
     position: absolute;
     width: 216px;
     height: 25px;
     left: 570px;
-    top: 1802px;
+    top: 1850px;
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 400;
+    cursor: pointer;
     font-size: 20px;
     line-height: 23px;
     text-align: center;
     color: #FFFFFF;
+    background-color: #AD0C0C;
+    border-radius: 62px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+
 }
 
 .textAvançado {
@@ -243,31 +228,34 @@
     font-size: 18px;
     line-height: 21px;
     color: #000000;
+
 }
 
 
 
+@media screen and (max-width: 1024px) {
+    
+.botaoComece button{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-top: 8px;
+    margin-top: 3%;
+    width: 20%;
+   }
 
-
-.footerImage {
-    position: absolute;
-    left: 4.44%;
-    right: 84.38%;
-    top: 33.82%;
-    bottom: 26.57%;
-    background: url(img/logo.jpg);
+.textIniciante {
+    width: 424px;
+    text-align: justify;
 }
 
-.footerText {
-    position: absolute;
-    left: 16.81%;
-    right: 69.44%;
-    top: 30.92%;
-    bottom: 41.06%;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 57px;
-    color: #FFFFFF;
+.textIntermediario {
+    width: 424px;
+    text-align: justify;
+}
+
+.textAvançado {
+    width: 424px;
+    text-align: justify;
+}
 }
