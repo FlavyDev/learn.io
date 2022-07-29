@@ -1,0 +1,127 @@
+.home_aula {
+    position: absolute;
+    top: 15%;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.banner_aula {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.banner_conteudo {
+    width: 40%;
+    margin-left: 10%;
+}
+
+.banner_conteudo h1 {
+    font-size: 200%;
+    color: #002C53;
+    text-shadow: 
+        1px 0px 0px #002C53, 
+        1px 0px 0px #002C53,                    
+        1px 0px 0px #002C53,                  
+        1px 0px 0px #002C53;
+    margin-top: 12%;
+}
+
+.banner_conteudo p {
+    margin-top: 2%;
+}
+
+.banner_conteudo img {
+    width: 450px;
+}
+
+.aulas {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    box-sizing: border-box;
+    background-color: #ece7e7;
+}
+
+.conteudo_aula {
+    display: flex;
+    width: 100%;
+    margin-top: 8%;
+    margin-left: 5%;
+}
+
+.sessao_aula h3 {
+    color: #002C53;
+    margin-left: 40px;
+    
+}
+
+.sessao_aula p {
+    width: 65%;
+    margin-left: 40px;
+    margin-top: 4%;
+}
+
+hr {
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 6%;
+  
+}
+
+@media screen and (max-width: 1024px) {
+
+    .banner_conteudo {
+        margin-left: 5%;
+    }
+    .banner_conteudo h1 {
+        font-size: 150%;
+    }
+    
+    .banner_conteudo img {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 688px) {
+    .banner_aula {
+        margin-top: 0%;
+    }
+
+    .banner_conteudo h1 {
+        width: 150%;
+        margin-top: 0%;
+        margin-left: 60%;
+    }
+
+    .banner_conteudo p {
+        width: 170%;
+        text-align: justify;
+        margin-top: 8%;
+        margin-left: 30%;
+        margin-bottom: 20%;
+    }
+    
+    .banner_conteudo img {
+       display: none;
+    }
+
+    .conteudo_aula {
+        display: block;
+    }
+
+    .sessao_aula img {
+        width: 70%;
+        margin-left: 10%;
+    }
+
+    .sessao_aula h3 {
+        margin-left: 40%;
+    }
+
+    .sessao_aula p {
+        margin-left: 11.5%;
+    }
+}

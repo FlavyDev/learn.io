@@ -99,6 +99,86 @@
     color: #fff;
 }
 
+.depoimentos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    box-sizing: border-box;
+}
+
+.depoimentos h1 {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    margin-left: 7%;
+    color: #002C53;
+}
+.feedback {
+    width: 37%;
+    display: flex;
+    margin-left: 7%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.feedback img {  
+    width: 15%;
+    height: 69%;
+    margin-top: 2%;
+    
+}
+
+.feedback p {
+    width: 54%;
+    margin-top: 3%;
+    margin-left: 4%;
+}
+
+.blog {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    box-sizing: border-box;
+    background-color: #ece7e7;
+}
+
+.blog h1 {
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    color: #002C53;
+}
+
+.post {
+    width: 25%;
+    margin-top: 4%;
+    margin-left: 6%;
+}
+
+.post h3 {
+    color: #002C53;
+    margin-top: 1.5%;
+    margin-bottom: 1%;
+}
+
+.post p {
+    width: 350px;
+    margin-bottom: 30%;
+}
+
+.blog a {
+    margin-left: 39%;
+    margin-bottom: 5%;
+}
+
+.blog button {
+    width: 170%;
+    height: 200%;
+    cursor: pointer;
+    border-radius: 62px;
+    color: #002C53;
+    border-color: #002C53;
+}
 
 @media screen and (max-width: 1280px) {
     .cursos {
@@ -109,7 +189,7 @@
         width: 100%;
     }
     .curso img {
-        width: 55%;
+        width: 45%;
     }
 
     .curso h2 {
@@ -132,7 +212,34 @@
 
 }
 
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 1024px) {
+
+    .blog {
+        display: block;
+        padding-bottom: 10%;
+    }
+
+    .post {
+        margin-top: 6%;
+        margin-left: 30%;
+        margin-bottom: 12%;
+    }
+
+    .post h3 {
+        width: 250%;
+    }
+
+    .blog a {
+        margin-left: 32%;
+    }
+
+    .blog button {
+        width: 27%;
+        height: 3%;
+    }
+}
+
+@media screen and (max-width: 835px) {
 
     .banner_texto h1 {
         font-size: 150%;
@@ -152,9 +259,25 @@
     .banner_img img {
         width: 85%;
     }
+
+    .feedback {
+        width: 100%;
+        margin-top: 3%;
+        margin-left: 20%;
+    }
+
+    .feedback img {
+        width: 9%;
+        height: 80%;
+        margin-top: 3%;
+    }
+
+    .blog a {
+        margin-left: 35%;
+    }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 688px) {
     
     .banner_texto  {
         width: 100%;
@@ -175,5 +298,65 @@
 
     .banner button {
         margin-left: 0%;
+    }
+
+    .curso button {
+        margin-bottom: 15%;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    
+    .curso button {
+        margin-bottom: 19%;
+    }
+
+    .feedback {
+        display: block;
+        margin-bottom: 10%;
+        margin-left: 10%;
+
+        
+    }
+
+    .feedback img {
+        width: 25%;
+        height: 30%;
+        margin-top: 15%;
+        margin-left: 33%;
+    }
+
+    .feedback p {
+        margin-left: 0%;
+        margin-right: 10%;
+        width: 100%;
+    }
+
+    .blog h1 {
+        margin-top: 12%;
+    }
+
+    .post {
+        margin-top: 12%;
+        margin-left: 6%;
+    }
+
+    .post img {
+        width: 350%;
+    }
+    
+    .post p {
+        width: 300px;
+        margin-bottom: 100%;
+    }
+
+    .blog a {
+        margin-left: 25%;
+    }
+
+    .blog button {
+        width: 50%;
+        height: 3%;
     }
 }
